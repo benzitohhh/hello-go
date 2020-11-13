@@ -1,0 +1,16 @@
+{
+  // This uses various Go plugins for VS code.
+  // To use it, cp .vscode.example .vscode
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${fileDirname}",
+      "env": {},
+      "args": []
+    }
+  ]
+}
